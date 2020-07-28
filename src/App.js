@@ -100,9 +100,6 @@ class App extends React.Component {
             <Link id="type-list-btn" to="/types">
               Types
             </Link>
-            <Link id="pokemon-list-btn" to="/mypokemons">
-              My pokemons
-            </Link>
           </nav>
           <Switch>
             <Redirect exact from="/" to="/pokemons" />
